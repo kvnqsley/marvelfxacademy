@@ -22,7 +22,7 @@ return <>
     </button>
 </div>
 <div className='sm:-mt-24 md:mt-auto mt-8 '>
-<img src="/src/assets/images/phone--1536x1536.png" alt="" />
+<img src="/assets/images/phone--1536x1536.png" alt="" />
 </div>
 </section>
 <section className='grid grid-cols-1 mt-12  md:grid-cols-2'>
@@ -57,7 +57,7 @@ return <>
     <FaCircle className='absolute animate-ping text-red-800 right-1/3 text-[.5rem]'/>
     <FaCircle className='absolute text-red-800 top-16 right-1/4 text-[.5rem]'/>
     <FaCircle className='absolute text-red-800 left-1/4 top-16 text-[.5rem]'/>
-      <img src="src/assets/images/Crypto-Trading-Users-Image.webp" alt="world-map image" />
+      <img src="/assets/images/Crypto-Trading-Users-Image.webp" alt="world-map image" />
   </div>
 </section>
 

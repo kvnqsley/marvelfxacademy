@@ -8,7 +8,7 @@ const  Header =({handleTelegram,handler, handleContact,handleMenuToggle}) =>{
     <header className={`w-full z-20   top-0  box-border ${handler.menu ? 'min-h-screen' : 'sm:min-h-max'}`}>
     <nav className={`md:flex   bg-inherit    grid   grid-cols-2 mt-4 items-center justify-between`}>
         <div className="flex-grow md:min-w-[60%]">
-        <img src="src/assets/react.svg" className="w-6 inline-block md:flex-grow-1 " alt="" />
+        <img src="/assets/react.svg" className="w-6 inline-block md:flex-grow-1 " alt="" />
 
         </div>
         <div  onClick={handleMenuToggle}
@@ -42,7 +42,7 @@ const  Header =({handleTelegram,handler, handleContact,handleMenuToggle}) =>{
              hover:before:block hover:before:w-full hover:before:left-0
              after:content-[''] after:bg-red-600 after:h-[2px] after:w-0   after:absolute relative after:block
              after:left-0  after:bottom-0   after:ease-in-out after:delay-100 after:duration-300
-             hover:after:block hover:after:w-full hover:text-red-600 `}><img src="src/assets/telegram-svgrepo-com.svg" className="w-6
+             hover:after:block hover:after:w-full hover:text-red-600 `}><img src="/assets/telegram-svgrepo-com.svg" className="w-6
          inline-block" alt="telegram icon" /> Join Telegram </a>
         </li>
     

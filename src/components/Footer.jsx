@@ -5,7 +5,7 @@ export default function Footer (){
     <footer className="text-neutral-400 mt-8">
 
     
-    <img src="src/assets/react.svg" className="w-14 inline-block md:flex-grow-1 " alt="" />
+    <img src="/assets/react.svg" className="w-14 inline-block md:flex-grow-1 " alt="" />
     <p className="mt-4" >
     Your journey to becoming BRUTALLY consistent in your trading begins here!
     </p>
