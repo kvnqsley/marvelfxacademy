@@ -22,14 +22,14 @@ const  Header =({handleTelegram,handler, handleContact,handleMenuToggle}) =>{
             
             <a 
              href="#" target="_blank" rel="noopener noreferrer" className={`text-red-600 py-2 before:content-[''] 
-            before:bg-red-600 before:h-[2px] before:w-0   before:absolute relative before:block
+            before:bg-red-600 before:h-[2px] before:w-0   before:absolute  before:block
              before:left-[4rem] before:bottom-0   before:ease-in-out before:delay-300 before:duration-200
              hover:before:block hover:before:w-full hover:before:left-0
              after:content-[''] after:bg-red-600 after:h-[2px] after:w-0   after:absolute relative after:block
              after:left-0  after:bottom-0   after:ease-in-out after:delay-100 after:duration-300
              hover:after:block hover:after:w-full `}>Home</a></li>
         <li className={`py-3 md:py-auto`}>    <a onClick={handleContact} href="http://" target="_blank" rel="noopener noreferrer" className={`${handler.contactLink ? 'text-red-600' :''} py-2 before:content-[''] 
-            before:bg-red-600 before:h-[2px] before:w-0   before:absolute relative before:block
+            before:bg-red-600 before:h-[2px] before:w-0   before:absolut before:block
              before:left-[4rem] before:bottom-0   before:ease-in-out before:delay-300 before:duration-200
              hover:before:block hover:before:w-full hover:before:left-0
              after:content-[''] after:bg-red-600 after:h-[2px] after:w-0   after:absolute relative after:block
@@ -40,7 +40,7 @@ const  Header =({handleTelegram,handler, handleContact,handleMenuToggle}) =>{
             before:bg-red-600 before:h-[2px] before:w-0   before:absolute relative before:block
              before:left-[4rem] before:bottom-0   before:ease-in-out before:delay-300 before:duration-200
              hover:before:block hover:before:w-full hover:before:left-0
-             after:content-[''] after:bg-red-600 after:h-[2px] after:w-0   after:absolute relative after:block
+             after:content-[''] after:bg-red-600 after:h-[2px] after:w-0   after:absolute  after:block
              after:left-0  after:bottom-0   after:ease-in-out after:delay-100 after:duration-300
              hover:after:block hover:after:w-full hover:text-red-600 `}><img src="/assets/telegram-svgrepo-com.svg" className="w-6
          inline-block" alt="telegram icon" /> Join Telegram </a>
